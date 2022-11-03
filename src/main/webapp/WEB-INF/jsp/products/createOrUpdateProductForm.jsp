@@ -33,5 +33,4 @@
         </form:form>
         <c:if test="${!product['new']}">
         </c:if>
-    </jsp:body>
 </petclinic:layout>
