@@ -37,7 +37,7 @@ public class VetService {
 	@Autowired
 	public VetService(VetRepository vetRepository) {
 		this.vetRepository = vetRepository;
-	}		
+	}
 
 	@Transactional(readOnly = true)	
 	public Collection<Vet> findVets() throws DataAccessException {
